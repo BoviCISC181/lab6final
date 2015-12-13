@@ -33,7 +33,7 @@ public class Rule {
 		this.CommunityCardsMax = rule.getCOMMUNITYCARDSMAX();	
 		this.PossibleHandCombinations = rule.getPOSSIBLEHANDCOMBINATIONS();
 		this.iCardsToDraw = cardsDraw;
-		this.RuleCards = 
+		this.RuleCards = new ArrayList<CardDomainModel>();//CardDomainModel(eSuit.DIAMONDS, eRank.EIGHT, 4)
 	}
 	
 //	public Rule(eGame gme) {
